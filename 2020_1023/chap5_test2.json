@@ -1,0 +1,10 @@
+[
+    {
+        'name' : 'Tokyo',
+        'coord' : {'lat' : 35.69, 'lon' : 139.69}
+    },
+    {
+        'name' : 'Kyoto',
+        'coord' : {'lat' : 35.02, 'lon' : 135.75}
+    }
+]

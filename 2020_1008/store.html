@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_91c3835137c74af2b70dfadca476e780 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_91c3835137c74af2b70dfadca476e780" ></div>
+        
+</body>
+<script>    
+    
+            var map_91c3835137c74af2b70dfadca476e780 = L.map(
+                "map_91c3835137c74af2b70dfadca476e780",
+                {
+                    center: [35.942957, 136.198863],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ee9f44662119426393ad2e1a9fabff9d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            var marker_bf35d55525b84b45a270db7ffc2e2c22 = L.marker(
+                [35.956477, 136.184073],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_bf35d55525b84b45a270db7ffc2e2c22.bindTooltip(
+                `<div>
+                     鯖江市役所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33b2194be0c044b99399a42a91752eab = L.marker(
+                [35.938552, 136.183866],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_33b2194be0c044b99399a42a91752eab.bindTooltip(
+                `<div>
+                     地域事業主 わどう
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_206bb4694e884951b9f1f935991ab2a3 = L.marker(
+                [35.945617999999996, 136.18510700000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_206bb4694e884951b9f1f935991ab2a3.bindTooltip(
+                `<div>
+                     佐野蕎麦 塩だけで食べる異次元そば
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_71c258bb89244c3896e86cf68fa281b5 = L.marker(
+                [35.946157, 136.18717900000001],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_71c258bb89244c3896e86cf68fa281b5.bindTooltip(
+                `<div>
+                     ヨーロッパン キムラヤ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84d268df28fa4aa79ae7f6908995ba95 = L.marker(
+                [35.946548, 136.185571],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_84d268df28fa4aa79ae7f6908995ba95.bindTooltip(
+                `<div>
+                     ミート＆デリカささき
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45c1d4c98b164cd2b99397dd62ddb476 = L.marker(
+                [35.948063, 136.30000900000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_45c1d4c98b164cd2b99397dd62ddb476.bindTooltip(
+                `<div>
+                     かわだ温泉 ラポーゼかわだ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53cccabad255455b9f210e3d4e0eef4c = L.marker(
+                [35.948063, 136.30000900000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_53cccabad255455b9f210e3d4e0eef4c.bindTooltip(
+                `<div>
+                     ラポーゼかわだ ほたるの里
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59a5e805e29e4e408e658069091a9041 = L.marker(
+                [35.967237, 136.181307],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_59a5e805e29e4e408e658069091a9041.bindTooltip(
+                `<div>
+                     リラクゼーション整体 癒しのたまご
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_286dff33b7a04251b1653060cb4f9053 = L.marker(
+                [35.946884999999995, 136.1781753],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_286dff33b7a04251b1653060cb4f9053.bindTooltip(
+                `<div>
+                     コスメティックス美香
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_208987eea87f45aaba175cf395b51440 = L.marker(
+                [35.950264000000004, 136.177074],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_208987eea87f45aaba175cf395b51440.bindTooltip(
+                `<div>
+                     green parlour ベルベール
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82715262855d47feb64c48795d088866 = L.marker(
+                [35.933178999999996, 136.212288],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_82715262855d47feb64c48795d088866.bindTooltip(
+                `<div>
+                     聴琴亭
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1de97c34c93a4af28ee0ff654f873b24 = L.marker(
+                [35.946248, 136.185026],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_1de97c34c93a4af28ee0ff654f873b24.bindTooltip(
+                `<div>
+                     たんなん夢レディオ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8339cf7d3d64e7a9339f6e09de9fe29 = L.marker(
+                [35.968798, 136.19558600000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_a8339cf7d3d64e7a9339f6e09de9fe29.bindTooltip(
+                `<div>
+                     菓子処安価堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0dbee57fdf4948cca94156092cf69a25 = L.marker(
+                [35.964309, 136.14443630000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_0dbee57fdf4948cca94156092cf69a25.bindTooltip(
+                `<div>
+                     表具処 紅屋紅陽堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a93a07caacaf461a88c4b9d11f2b25fd = L.marker(
+                [35.943071, 136.187874],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_a93a07caacaf461a88c4b9d11f2b25fd.bindTooltip(
+                `<div>
+                     甘味茶屋　極
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1017912ea9641218d9c2b4b8889278a = L.marker(
+                [35.94511, 136.185926],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_d1017912ea9641218d9c2b4b8889278a.bindTooltip(
+                `<div>
+                     亀屋萬年堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bd4e678ff384a05b2d35cd801af1368 = L.marker(
+                [35.948256, 136.164807],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_7bd4e678ff384a05b2d35cd801af1368.bindTooltip(
+                `<div>
+                     とくはし整骨院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_751064e064974b01a17b48ac1d56171f = L.marker(
+                [35.94506, 136.183602],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_751064e064974b01a17b48ac1d56171f.bindTooltip(
+                `<div>
+                     株式会社内田工務店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0d33ba0aecb448a88679e1ee04ab061 = L.marker(
+                [35.944437, 136.149706],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_f0d33ba0aecb448a88679e1ee04ab061.bindTooltip(
+                `<div>
+                     林呉服店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c52d9b02e32041dd86a7ef7ab25bc948 = L.marker(
+                [35.949481, 136.185429],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_c52d9b02e32041dd86a7ef7ab25bc948.bindTooltip(
+                `<div>
+                     酒のあかし
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45cd7ff4f0064dc78b2216d3ae4577f5 = L.marker(
+                [35.945423999999996, 136.186115],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_45cd7ff4f0064dc78b2216d3ae4577f5.bindTooltip(
+                `<div>
+                     エルザスコーヒー
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df46ee1de80947fa8a84900edaf821df = L.marker(
+                [35.943571, 136.187757],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_df46ee1de80947fa8a84900edaf821df.bindTooltip(
+                `<div>
+                     久保田酒店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e089d3dc0784ed49f3e9e169a69f3de = L.marker(
+                [35.947309000000004, 136.181271],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_4e089d3dc0784ed49f3e9e169a69f3de.bindTooltip(
+                `<div>
+                     イル・ヴィゴーレ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_224a25f63fc142cd84cb2e9d1e87b11b = L.marker(
+                [35.947309000000004, 136.181271],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_224a25f63fc142cd84cb2e9d1e87b11b.bindTooltip(
+                `<div>
+                     メゾン・ド・レトワール
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c4a0f50f914487dab41d099e9e54c87 = L.marker(
+                [35.942755, 136.19884199999998],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_2c4a0f50f914487dab41d099e9e54c87.bindTooltip(
+                `<div>
+                     めがねミュージアム
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2a72ecf6ba2b4d598ce122b7bc5a4581 = L.marker(
+                [35.972728000000004, 136.175818],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_2a72ecf6ba2b4d598ce122b7bc5a4581.bindTooltip(
+                `<div>
+                     協同組合 鯖江市繊維協会 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_befa2e1b07d64c828ae64051988b726d = L.marker(
+                [35.96979, 136.180873],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_befa2e1b07d64c828ae64051988b726d.bindTooltip(
+                `<div>
+                     田中眼鏡
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7654c2a7f91b4d9ea19866d91df9aef3 = L.marker(
+                [35.94661, 136.190915],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_7654c2a7f91b4d9ea19866d91df9aef3.bindTooltip(
+                `<div>
+                     ベルジェ・ダルカディ弁慶堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7d9a54b717146e28cf03cee6e9a0a7a = L.marker(
+                [35.944146, 136.185885],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_e7d9a54b717146e28cf03cee6e9a0a7a.bindTooltip(
+                `<div>
+                     昭和堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6ad3a13519f41bfbe1e874890fb0490 = L.marker(
+                [35.943659999999994, 136.179702],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_b6ad3a13519f41bfbe1e874890fb0490.bindTooltip(
+                `<div>
+                     けーきやYANAGIMOTO 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4090f8047f20428ca94f2e9f53c59ac9 = L.marker(
+                [35.9864263, 136.167916],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_4090f8047f20428ca94f2e9f53c59ac9.bindTooltip(
+                `<div>
+                     加藤吉平商店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fa99e72a7f749578435da9f79ca7333 = L.marker(
+                [35.966834000000006, 136.180432],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_5fa99e72a7f749578435da9f79ca7333.bindTooltip(
+                `<div>
+                     鯖江菓子工房Yamahatsu（やまはつ）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8055671fb6d64933b2bbbcc8221f5f51 = L.marker(
+                [35.932178, 136.187118],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_8055671fb6d64933b2bbbcc8221f5f51.bindTooltip(
+                `<div>
+                     Little Deco(リトル・デコ）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ece88dbc16c8448481e991f9b5888aea = L.marker(
+                [35.943982, 136.183152],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_ece88dbc16c8448481e991f9b5888aea.bindTooltip(
+                `<div>
+                     ベーカリーショップ上坂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1aa04501b524a489fee261b6751131c = L.marker(
+                [35.979667799999994, 136.1770166],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_b1aa04501b524a489fee261b6751131c.bindTooltip(
+                `<div>
+                     マツヤベーカリー
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc64b5ea0f804ae78ada60fa70c0005b = L.marker(
+                [35.945268, 136.179955],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_dc64b5ea0f804ae78ada60fa70c0005b.bindTooltip(
+                `<div>
+                     富士屋会館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a65b0ad2ec84b6cb489cffb6ffa1226 = L.marker(
+                [35.943435, 136.194276],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_1a65b0ad2ec84b6cb489cffb6ffa1226.bindTooltip(
+                `<div>
+                     蕎麦 旨酒 亀蔵
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_773d825f940f42a3a0e3a1f74fe93445 = L.marker(
+                [35.979873, 136.1814823],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_773d825f940f42a3a0e3a1f74fe93445.bindTooltip(
+                `<div>
+                     ヴィヴァーチェ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c908173e95640d892d565194ac84b6a = L.marker(
+                [35.953233000000004, 136.273842],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_2c908173e95640d892d565194ac84b6a.bindTooltip(
+                `<div>
+                     椀椀（わんわん） 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57009a79b8d2473ab814835d96df0a2d = L.marker(
+                [35.945402, 136.194917],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_57009a79b8d2473ab814835d96df0a2d.bindTooltip(
+                `<div>
+                     獏の棲む森
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_680a08164bbb4b5191d318b40581901f = L.marker(
+                [35.941390999999996, 136.188801],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_680a08164bbb4b5191d318b40581901f.bindTooltip(
+                `<div>
+                     お好みハウスセレネ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22a3674b46d2437899779dc01b8d02cc = L.marker(
+                [35.943071999999994, 136.1856856],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_22a3674b46d2437899779dc01b8d02cc.bindTooltip(
+                `<div>
+                     EVE 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5c48465e54e45c89fd3aa450b248b0e = L.marker(
+                [35.943533, 136.18006430000003],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_c5c48465e54e45c89fd3aa450b248b0e.bindTooltip(
+                `<div>
+                     笑庵
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3382080aab064cf986f4bf47a23e5edf = L.marker(
+                [35.972078, 136.177648],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_3382080aab064cf986f4bf47a23e5edf.bindTooltip(
+                `<div>
+                     まるこめ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ddf1bbb28e34a59847e5c02313dc439 = L.marker(
+                [35.944324, 136.192248],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_6ddf1bbb28e34a59847e5c02313dc439.bindTooltip(
+                `<div>
+                     パイ工房Kou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3adacaec07d94d71adbe17f8eb79c4f9 = L.marker(
+                [35.970687, 136.18059],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_3adacaec07d94d71adbe17f8eb79c4f9.bindTooltip(
+                `<div>
+                     ボストンクラブ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc20843127e44c828210c36192fd7a0e = L.marker(
+                [35.948698, 136.180721],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_cc20843127e44c828210c36192fd7a0e.bindTooltip(
+                `<div>
+                     道の駅西山公園
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d5874ac5c08478dab929a569dc4ce8e = L.marker(
+                [35.942721, 136.176278],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_0d5874ac5c08478dab929a569dc4ce8e.bindTooltip(
+                `<div>
+                     カイロプラクティク らくくる
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fda4d6196f7b4b0ea06e5eee8cab9462 = L.marker(
+                [35.965517999999996, 136.186834],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_fda4d6196f7b4b0ea06e5eee8cab9462.bindTooltip(
+                `<div>
+                     むらさ木亭
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac1e3193955c44049151de6aa48551cd = L.marker(
+                [35.947715, 136.185768],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_ac1e3193955c44049151de6aa48551cd.bindTooltip(
+                `<div>
+                     萠菖軒（みょうしょうけん）
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35f9d7452818417cb076aa50d5624dd8 = L.marker(
+                [35.943071, 136.187874],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_35f9d7452818417cb076aa50d5624dd8.bindTooltip(
+                `<div>
+                     シャプラ鯖江市 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d9ea091b78a540d7ac43548ceebf71a3 = L.marker(
+                [35.958946000000005, 136.146455],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_d9ea091b78a540d7ac43548ceebf71a3.bindTooltip(
+                `<div>
+                     猪吉
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0bfa6e73d748f2a9f0195c9887d2f5 = L.marker(
+                [35.943571, 136.187757],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_cf0bfa6e73d748f2a9f0195c9887d2f5.bindTooltip(
+                `<div>
+                     山うに屋 ほやっ停
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaec950525ac4c0d89f9e2fc1650b781 = L.marker(
+                [35.94216, 136.19284199999998],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_aaec950525ac4c0d89f9e2fc1650b781.bindTooltip(
+                `<div>
+                     ながと蕎麦
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92026c1f08fe408e8299b838e03e8131 = L.marker(
+                [35.945617999999996, 136.18510700000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_92026c1f08fe408e8299b838e03e8131.bindTooltip(
+                `<div>
+                     カンパネルラ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3ab02b6796f41a88bae0a309637f28d = L.marker(
+                [35.945057, 136.185079],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_d3ab02b6796f41a88bae0a309637f28d.bindTooltip(
+                `<div>
+                     沢崎ミシン毛糸店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d71cf90b24d4e41818cb639f90d835a = L.marker(
+                [35.953483, 136.274917],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_7d71cf90b24d4e41818cb639f90d835a.bindTooltip(
+                `<div>
+                     漆琳堂直営店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e35565bea2c847f8b558dd13011bbb4a = L.marker(
+                [35.954578000000005, 136.208429],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_e35565bea2c847f8b558dd13011bbb4a.bindTooltip(
+                `<div>
+                     さばえおもちゃ病院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f770bdd24274b398957c0084944e374 = L.marker(
+                [35.945279, 136.186362],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_8f770bdd24274b398957c0084944e374.bindTooltip(
+                `<div>
+                     自然食品の店 キャロットハウス鯖江店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66c705bbe7e64f07b9fb6ad53bbe74f2 = L.marker(
+                [35.940591, 136.18363],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_66c705bbe7e64f07b9fb6ad53bbe74f2.bindTooltip(
+                `<div>
+                     清雲堂
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35251a88624b47558aa6e4209dc93fa2 = L.marker(
+                [35.977794, 136.16511630000002],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_35251a88624b47558aa6e4209dc93fa2.bindTooltip(
+                `<div>
+                     さばえ子育てサポートおもちゃ病院
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30b1c55e4c0b4df6ba1209f7a0d53d84 = L.marker(
+                [35.954578000000005, 136.208429],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_30b1c55e4c0b4df6ba1209f7a0d53d84.bindTooltip(
+                `<div>
+                     鯖江市環境教育支援センター(エコネットさばえ)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e165a1119414840a6d8d8da3266d5e3 = L.marker(
+                [35.943304, 136.182599],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_4e165a1119414840a6d8d8da3266d5e3.bindTooltip(
+                `<div>
+                     ホクトフード
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1292ebd8393e40cfb855e1b5653c7c36 = L.marker(
+                [35.944324, 136.18676499999998],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_1292ebd8393e40cfb855e1b5653c7c36.bindTooltip(
+                `<div>
+                     ヨコヤマ写真館
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_468dd01e8c43454884f3dc70287ec552 = L.marker(
+                [35.945468, 136.184143],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_468dd01e8c43454884f3dc70287ec552.bindTooltip(
+                `<div>
+                     （有）栄進堂 本店
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96083267b91443eab781033177098026 = L.marker(
+                [35.944332, 136.18499599999998],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_96083267b91443eab781033177098026.bindTooltip(
+                `<div>
+                     umeda１９１２
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae1ec72a14314551815fa2f65a3d81e6 = L.marker(
+                [35.946695, 136.181993],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_ae1ec72a14314551815fa2f65a3d81e6.bindTooltip(
+                `<div>
+                     めだか
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cd17ee19b8e49a399f164c93367122f = L.marker(
+                [35.950317999999996, 136.206146],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_9cd17ee19b8e49a399f164c93367122f.bindTooltip(
+                `<div>
+                     U・F・O・アカデミー本校
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad23e617fdbf4aa0ba65676f19e07ce0 = L.marker(
+                [35.972609000000006, 136.181659],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_ad23e617fdbf4aa0ba65676f19e07ce0.bindTooltip(
+                `<div>
+                     まるちゃんらーめん
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1db8d90ba8b2442fbb9e3a70cb39aaa9 = L.marker(
+                [35.940385, 136.185374],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_1db8d90ba8b2442fbb9e3a70cb39aaa9.bindTooltip(
+                `<div>
+                     王山古墳群
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a312a9804abc424eb4194f40ba55eb95 = L.marker(
+                [35.946248, 136.185026],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_a312a9804abc424eb4194f40ba55eb95.bindTooltip(
+                `<div>
+                     市民ホールつつじ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6548f13aea784bf6889e10acb0787c60 = L.marker(
+                [35.940991, 136.179397],
+                {}
+            ).addTo(map_91c3835137c74af2b70dfadca476e780);
+        
+    
+            marker_6548f13aea784bf6889e10acb0787c60.bindTooltip(
+                `<div>
+                     たじま着付教室
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
