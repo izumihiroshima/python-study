@@ -1,10 +1,11 @@
 import requests
 import json
+import config
 from pprint import pprint
 
 # 現在の天気を取得する: 郵便番号160-0006
 url = 'http://api.openweathermap.org/data/2.5/weather?zip={zipcode}&appid={key}&lang=units=metric'
-url = url.format(zipcode='160-0006,JP', key='d78e9f8fc401c30f8c284c36bb1b2a83')
+url = url.format(zipcode='160-0006,JP', key=config.api_key)
 
 jsondata = requests.get(url).json()
 print('都市名　　= ', jsondata['name'])
